@@ -1,3 +1,10 @@
+# ChangeLog
+
+## 0.39.20180614
+
+* `packageSourceUrl` changed
+* `iconUrl` changed
+
 ## 0.39.20180212 (Feb 12, 2018)
 
 * Removed try/catch statements

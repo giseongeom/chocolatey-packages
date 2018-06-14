@@ -26,9 +26,9 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>0.39.20180212</version>
+    <version>0.39.20180614</version>
     <owners>GiSeong Eom</owners>
-    <packageSourceUrl>https://github.com/giseongeom/tcping/</packageSourceUrl>
+    <packageSourceUrl>https://github.com/giseongeom/chocolatey-packages/tree/master/tcping</packageSourceUrl>
     <!-- <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>-->
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <!--<owners>__REPLACE_YOUR_NAME__</owners>-->
@@ -42,7 +42,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <licenseUrl>https://www.gnu.org/licenses/licenses.html#GPL</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://download.elifulkerson.com/files/tcping/0.39/tcping-src.zip</projectSourceUrl>
-    <iconUrl>https://cdn.rawgit.com/giseongeom/tcping/b9a8fad2/cmd.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/giseongeom/chocolatey-packages/ac1e3eb9/tcping/cmd.png</iconUrl>
     <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/tcping.png</iconUrl>-->
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->

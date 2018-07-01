@@ -4,6 +4,7 @@
 
 * `packageSourceUrl` changed
 * `iconUrl` changed
+* <https://github.com/naver/d2codingfont/releases/tag/VER1.3.2>
 
 ## 1.3.1
 

@@ -1,5 +1,10 @@
 # ChangeLog
 
+## 6.0.3 
+
+* 2018.07.21 packaged
+
+
 ## 6.0.2.20180614
 
 * `packageSourceUrl` changed

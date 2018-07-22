@@ -1,12 +1,12 @@
 ﻿$ErrorActionPreference = 'Stop'; # stop on all errors
 # 32-bit
-$url = 'https://github.com/PowerShell/PowerShell/releases/download/v6.0.2/PowerShell-6.0.2-win-x86.zip'
-$checksum = '87048B0A2DBD56AA8FE1F92DDB7D7BBF8E904F8D54EE2A62443C7B31AE9E55F8'
+$url = 'https://github.com/PowerShell/PowerShell/releases/download/v6.0.3/PowerShell-6.0.3-win-x86.zip'
+$checksum = '51A3FB4AF86C72E300B3C9AAD93BE1665CE67E1077CF109B72CC57F4F8AC539C'
 $checksumType = 'sha256'
 
 # 64-bit
-$url64 = 'https://github.com/PowerShell/PowerShell/releases/download/v6.0.2/PowerShell-6.0.2-win-x64.zip'
-$checksum64 = '8CB153E540ED9D9A7FE00CB3D1FE94A0ED089B574FD02E816AB2BB066F4C4F89'
+$url64 = 'https://github.com/PowerShell/PowerShell/releases/download/v6.0.3/PowerShell-6.0.3-win-x64.zip'
+$checksum64 = 'DFFBB84E3E474E00100F6E51F36F7CC1146C70E68CAB72F94AA91AB35CB24AC7'
 $checksumType64 = $checksumType
 
 $packageName = 'powershell.portable'

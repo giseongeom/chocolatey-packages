@@ -1,5 +1,10 @@
 # ChangeLog
 
+## 6.1.0-preview-4
+
+* 2018.07.22 packaged
+
+
 ## 6.0.3 
 
 * 2018.07.21 packaged
@@ -9,7 +14,6 @@
 
 * `packageSourceUrl` changed
 * `iconUrl` changed
-
 
 ## 6.1.0-preview-3
 

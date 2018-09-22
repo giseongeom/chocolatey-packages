@@ -36,7 +36,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>tflint - terraform linter</title>
+    <title>tflint</title>
     <authors>Kazuma Watanabe</authors>
     <projectUrl>https://github.com/wata727/tflint/</projectUrl>
     <licenseUrl>https://github.com/wata727/tflint/blob/master/LICENSE</licenseUrl>

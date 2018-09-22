@@ -38,7 +38,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- This section is about the software itself -->
     <title>powershell (Portable)</title>
     <authors>Microsoft</authors>
-    <projectUrl>https://github.com/PowerShell/PowerShell</projectUrl>
+    <projectUrl>https://microsoft.com/powershell</projectUrl>
     <licenseUrl>https://github.com/PowerShell/PowerShell/blob/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/PowerShell/PowerShell</projectSourceUrl>

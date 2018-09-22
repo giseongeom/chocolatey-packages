@@ -41,7 +41,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <projectUrl>https://github.com/PowerShell/PowerShell</projectUrl>
     <licenseUrl>https://github.com/PowerShell/PowerShell/blob/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/PowerShell/PowerShell/archive/v6.1.0.zip</projectSourceUrl>
+    <projectSourceUrl>https://github.com/PowerShell/PowerShell</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/giseongeom/chocolatey-packages/15c871d1/powershell.portable/Powershell_black_64.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->

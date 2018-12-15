@@ -58,6 +58,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     Bandizip is a lightweight, fast and free All-In-One Zip Archiver.
     Bandizip has a very fast Zip algorithm for compression, extraction with Fast Drag and Drop, High Speed Archiving, and Multi-core compression. It handles the most popular compression formats, including Zip, 7z, Rar, and so on.
     </description>
+    <releaseNotes>http://www.bandisoft.com/bandizip/history/</releaseNotes>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <!-- =============================== -->      
 

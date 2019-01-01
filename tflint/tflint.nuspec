@@ -26,7 +26,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>0.7.2</version>
+    <version>0.7.3</version>
     <owners>GiSeong Eom</owners>
     <packageSourceUrl>https://github.com/giseongeom/chocolatey-packages/tree/master/tflint/</packageSourceUrl>
     <!-- <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>-->
@@ -42,7 +42,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <licenseUrl>https://github.com/wata727/tflint/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/wata727/tflint/releases</projectSourceUrl>
-    <iconUrl>https://cdn.rawgit.com/giseongeom/chocolatey-packages/62122337/tflint/tflint.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/giseongeom/chocolatey-packages/master/tflint/tflint.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
@@ -53,7 +53,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <tags>terraform tflint</tags>
     <summary>TFLint is a Terraform linter</summary>
     <description>TFLint is a Terraform linter for detecting errors that can not be detected by terraform plan.</description>
-    <releaseNotes>https://github.com/wata727/tflint/releases/tag/v0.7.2</releaseNotes>
+    <releaseNotes>https://github.com/wata727/tflint/releases/tag/v0.7.3</releaseNotes>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <!-- =============================== -->      
 

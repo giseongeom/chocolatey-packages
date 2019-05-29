@@ -5,13 +5,13 @@ $packageArgs = @{
     packageName    = 'tflint'
 
     # 32-bit
-    url            = 'https://github.com/wata727/tflint/releases/download/v0.7.5/tflint_windows_386.zip'
-    checksum       = '6927B20342FDDD043CE375ACAC0699659EB3C4BC6AAD0C8AC69E6A0D3E451220'
+    url            = 'https://github.com/wata727/tflint/releases/download/v0.7.6/tflint_windows_386.zip'
+    checksum       = '86772916467eb294e825c24593ba989639acbb326cc68a6ec9c4cbfbb0bc1127'
     checksumType   = 'sha256'
 
     # 64-bit
-    url64bit       = 'https://github.com/wata727/tflint/releases/download/v0.7.5/tflint_windows_amd64.zip'
-    checksum64     = 'DEA24C79567E3AFFC191D215143674A6525FEA402C4A4C2DAB3164D0085133C7'
+    url64bit       = 'https://github.com/wata727/tflint/releases/download/v0.7.6/tflint_windows_amd64.zip'
+    checksum64     = '83d1798f63d85f49c9db03192bff9161a67209a6e37309fc978d05a0a70e15b9'
     checksumType64 = $checksumType
 
     # misc

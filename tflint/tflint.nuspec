@@ -38,22 +38,22 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- This section is about the software itself -->
     <title>TFLint (Terraform linter)</title>
     <authors>Kazuma Watanabe</authors>
-    <projectUrl>https://github.com/wata727/tflint/</projectUrl>
-    <licenseUrl>https://github.com/wata727/tflint/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/terraform-linters/tflint/</projectUrl>
+    <licenseUrl>https://github.com/terraform-linters/tflint/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/wata727/tflint/releases</projectSourceUrl>
+    <projectSourceUrl>https://github.com/terraform-linters/tflint/releases</projectSourceUrl>
     <iconUrl>https://raw.githubusercontent.com/giseongeom/chocolatey-packages/master/tflint/tflint.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
-    <docsUrl>https://github.com/wata727/tflint/tree/master/docs</docsUrl>
-    <bugTrackerUrl>https://github.com/wata727/tflint/issues</bugTrackerUrl>
+    <docsUrl>https://github.com/terraform-linters/tflint/tree/master/docs</docsUrl>
+    <bugTrackerUrl>https://github.com/terraform-linters/tflint/issues</bugTrackerUrl>
     <tags>terraform tflint</tags>
     <summary>TFLint is a Terraform linter</summary>
     <description>TFLint is a Terraform linter for detecting errors that can not be detected by terraform plan.</description>
-    <releaseNotes>https://github.com/wata727/tflint/releases/tag/v0.13.1</releaseNotes>
+    <releaseNotes>https://github.com/terraform-linters/tflint/releases/tag/v0.13.1</releaseNotes>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <!-- =============================== -->
 

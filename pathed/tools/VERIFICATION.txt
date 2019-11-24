@@ -1,0 +1,35 @@
+﻿VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+The extension has been downloaded from their official download link listed on <http://www.p-nand-q.com/download/gtools/gtools-current.exe>
+and can be verified like this:
+
+1. Download the following gtools installer:
+  http://www.p-nand-q.com/download/gtools/gtools-current.exe
+
+
+
+2. Extract the gtools-current.exe into some folder and copy following files that are required to run pathed 
+   GSharpTools.dll
+   log4net.dll
+   pathed.exe
+
+
+3. You can use one of the following methods to obtain the checksum 
+  - Use powershell function 'Get-Filehash'
+  - Use chocolatey utility 'checksum.exe'
+
+  filename: pathed.exe
+  checksum type: sha256
+  checksum: 1128cec0d856e066df878d02d21ac7800503aee72b91d3c0629b745cb6255329
+
+  filename: GSharpTools.dll
+  checksum type: sha256
+  checksum: f438cbd4b4a900540a61da8b6018b6db030b03e0a75173b335f7a0f5733a943a
+
+  filename: log4net.dll
+  checksum type: sha256
+  checksum: 3691c63ee84b2628e0c021418d0dee979b50ce550178db3efc5e19fe5bad5b4c
+
+

@@ -36,7 +36,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>pathed</title>
+    <title>pathed - edit PATH variable from command prompt</title>
     <authors>Gerson Kurz</authors>
     <projectUrl>http://www.p-nand-q.com/download/gtools/pathed.html</projectUrl>
     <licenseUrl>https://opensource.org/licenses/BSD-2-Clause</licenseUrl>

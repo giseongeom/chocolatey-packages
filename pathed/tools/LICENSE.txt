@@ -1,0 +1,4 @@
+﻿From: http://www.p-nand-q.com/download/gtools/pathed.html
+
+LICENSE
+pathed is freeware, BSD-licensed.

@@ -4,12 +4,12 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
     packageName    = 'powershell.portable'
     # 32-bit
-    url            = 'https://github.com/PowerShell/PowerShell/releases/download/v6.2.3/PowerShell-6.2.3-win-x86.zip'
-    checksum       = '6b9f1c54755aa51678e56a6059c2747801b3e0c72e678b800b15c8e084129c66'
+    url            = 'https://github.com/PowerShell/PowerShell/releases/download/v6.2.4/PowerShell-6.2.4-win-x86.zip'
+    checksum       = 'fff26e8a84a74d0af2776e5ffa97c77735f5fc0fd1b219ea8386153affb2a7bb'
     checksumType   = 'sha256'
     # 64-bit
-    url64bit       = 'https://github.com/PowerShell/PowerShell/releases/download/v6.2.3/PowerShell-6.2.3-win-x64.zip'
-    checksum64     = 'af171ed197b167e2630044dba6344af8b291e8646f7276b63f1d84c166a41d33'
+    url64bit       = 'https://github.com/PowerShell/PowerShell/releases/download/v6.2.4/PowerShell-6.2.4-win-x64.zip'
+    checksum64     = '54af157b57c83731907460f3e24ac60852e7f6a685a748cac8717f3ba18188b6'
     checksumType64 = $checksumType
     # misc
     unziplocation  = "$toolsDir\pwsh"

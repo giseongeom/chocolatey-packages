@@ -42,7 +42,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.statically.io/gh/giseongeom/chocolatey-packages/85b04c9f/ubuntuhere/ubuntuhere.png</iconUrl>
-    <projectSourceUrl>https://github.com/giseongeom/chocolatey-packages/commit/82eb11ec4575d4f6a2bcf2a036296077b7d1be70</projectSourceUrl>
+    <projectSourceUrl>https://github.com/giseongeom/chocolatey-packages/commit/c148f55e85177eeba110e65bf5b33c660e49f68f</projectSourceUrl>
     <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/tcping.png</iconUrl>-->
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->

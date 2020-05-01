@@ -12,6 +12,15 @@ $iconFullPath  = Join-Path $toolsDir "$packageName.ico"
 Get-ChocolateyWebFile -PackageName $packageName -FileFullPath $iconFullPath -url $iconUrl
 $cmdpath = "wsl.exe --cd"
 
+$ShimGen = Join-Path "$env:ChocolateyInstall" 'tools\shimgen.exe'
+$wslExePath = "C:\Windows\system32\wsl.exe"
+$wslShimFilePath = Join-Path $env:ChocolateyInstall "\bin\wsl.exe"
+$ShimGenArgs = "-o `"$wslShimFilePath`" -p `"$wslExePath`" -i `"$iconFullPath`""
+if ((Test-Path $ShimGen) -and (Test-Path $wslExePath)) {
+    Start-Process "$ShimGen" -ArgumentList "$ShimGenArgs" -Wait -WindowStyle Hidden
+    $cmdpath = "$env:ChocolateyInstall\bin\wsl.exe --cd"
+}
+
 # for right clicking on folders
 New-Item HKLM:\SOFTWARE\Classes\Directory\shell\UbuntuOpenHere -force
 Set-Item HKLM:\SOFTWARE\Classes\Directory\shell\UbuntuOpenHere "Open WSL/Ubuntu Here"

@@ -6,6 +6,8 @@ $toolsDir      = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $iconFullPath  = Join-Path $toolsDir "$packageName.ico"
 Remove-Item -Path $iconFullPath -Force
 
+$wslShimFilePath = Join-Path $env:ChocolateyInstall "\bin\wsl.exe"
+if (Test-Path $wslShimFilePath) { Remove-Item $wslShimFilePath -Force }
 
 # for right clicking on folders
 Remove-Item -Recurse HKLM:\SOFTWARE\Classes\Directory\shell\UbuntuOpenHere -force

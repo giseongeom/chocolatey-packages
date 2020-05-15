@@ -1,24 +1,22 @@
 # ChangeLog
 
-## 6.1.0-preview-4
+## 7.0.1
 
-* 2018.07.22 packaged
-
-
-## 6.0.3 
-
-* 2018.07.21 packaged
+* 2020.05.15
 
 
-## 6.0.2.20180614
+## 7.0.0
 
-* `packageSourceUrl` changed
-* `iconUrl` changed
+* 2020.04.19
 
-## 6.1.0-preview-3
 
-* Upgraded to `v6.1.0-preview.3`
-* `iconUrl` changed
+## 6.2.4
+
+* 2020.02.01
+
+## 6.2.3
+
+* 2010.09.24
 
 
 

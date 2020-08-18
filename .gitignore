@@ -16,3 +16,6 @@ __pycache__
 .*.swp
 [Tt]humbs.db
 *.nupkg
+
+# Visual Studio Code
+.vscode/

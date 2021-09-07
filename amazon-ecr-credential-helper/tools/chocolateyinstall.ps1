@@ -7,9 +7,9 @@ $packageArgs = @{
     packageName  = 'amazon-ecr-credential-helper'
     FileFullPath = $fileFullPath
 
-    # 32-bit
-    url          = 'https://amazon-ecr-credential-helper-releases.s3.us-east-2.amazonaws.com/0.4.0/windows-amd64/docker-credential-ecr-login.exe'
-    checksum     = '16e5a0393034be2b69a0130d7d946cd419beb7ad93d80785c57c46181b82bf91'
+    # 64-bit
+    url          = 'https://amazon-ecr-credential-helper-releases.s3.us-east-2.amazonaws.com/0.5.0/windows-amd64/docker-credential-ecr-login.exe'
+    checksum     = '183563fddfed2c1f4d09a1929f3b9e3a1dea58ec1f6ba4db5db9b970c0be06b7'
     checksumType = 'sha256'
 }
 

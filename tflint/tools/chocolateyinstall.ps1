@@ -5,13 +5,13 @@ $packageArgs = @{
     packageName    = 'tflint'
 
     # 32-bit
-    url            = 'https://github.com/terraform-linters/tflint/releases/download/v0.35.0/tflint_windows_386.zip'
-    checksum       = '514F33C9A41424EB05C4194128ADB7DF1096BCE585AD8E92BE7922D92A79AC60'
+    url            = 'https://github.com/terraform-linters/tflint/releases/download/v0.39.3/tflint_windows_386.zip'
+    checksum       = 'af5333b7f543e4a14842eca9ffb269715baa3260db6b7cf6c6c2e186570a4c42'
     checksumType   = 'sha256'
 
     # 64-bit
-    url64bit       = 'https://github.com/terraform-linters/tflint/releases/download/v0.35.0/tflint_windows_amd64.zip'
-    checksum64     = 'A272599F24E39F6F66E2D4C41DCF7303154BAF7E518FCF1ADD1236A4F4CF9FEA'
+    url64bit       = 'https://github.com/terraform-linters/tflint/releases/download/v0.39.3/tflint_windows_amd64.zip'
+    checksum64     = '320ecd479679bcc80375353732066e4f918366f939c9c24923f4f0315abce270'
     checksumType64 = $checksumType
 
     # misc

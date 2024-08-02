@@ -8,8 +8,8 @@ $packageArgs = @{
     FileFullPath = $fileFullPath
 
     # 64-bit
-    url64          = 'https://amazon-ecr-credential-helper-releases.s3.us-east-2.amazonaws.com/0.6.0/windows-amd64/docker-credential-ecr-login.exe'
-    checksum64     = '3356E38A20566D688AC6ED22A9999ECCA4559ED56EEC4D402430B581CAE84BB9'
+    url64          = 'https://amazon-ecr-credential-helper-releases.s3.us-east-2.amazonaws.com/0.8.0/windows-amd64/docker-credential-ecr-login.exe'
+    checksum64     = 'eb385f5c69dd62087a9c59cbade8feeb47bd9c8ec2addb84b4427dda8d704201'
     checksumType64 = 'sha256'
 }
 
